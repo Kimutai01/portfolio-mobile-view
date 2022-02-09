@@ -1,0 +1,16 @@
+.header-nav {
+  background: #3c3a39;
+}
+.container {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  background: #3c3a39;
+}
+
+.container #capacity{
+    float: right;
+    margin-right: 14.67px;
+}
