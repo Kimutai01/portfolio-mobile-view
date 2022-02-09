@@ -3,14 +3,19 @@
 }
 .container {
   position: absolute;
+  display: inline;
   width: 375px;
   height: 92px;
   left: 0px;
   top: 0px;
   background: #3c3a39;
 }
-
-.container #capacity{
-    float: right;
-    margin-right: 14.67px;
+.container ul li{
+    display: inline;
+}
+.logo {
+    width: 163px;
+    height: 44px;
+    top: 2px;
+    left: 2px;
 }
