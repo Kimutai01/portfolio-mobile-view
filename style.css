@@ -56,10 +56,9 @@ nav .status-bar {
 .menu {
   justify-content: space-between;
   align-items: center;
-
 }
-.menu h6{
-    float: left;
+.menu h6 {
+  float: left;
 }
 
 .name {
@@ -110,10 +109,10 @@ nav .status-bar {
   right: 0;
   width: 30%;
 }
-.social-media ul{
-    display: flex;
+.social-media ul {
+  display: flex;
 }
 
-.social-media ul li{
-    list-style: none;
+.social-media ul li {
+  list-style: none;
 }
