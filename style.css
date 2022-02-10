@@ -30,7 +30,7 @@ header,
 .status-bar,
 .icons,
 .menu,
-.headline {
+.content {
   display: flex;
 }
 
@@ -39,7 +39,7 @@ section {
   padding: 0 24px;
 }
 
-.status-bar {
+nav .status-bar {
   padding: 0 8px;
   justify-content: space-between;
   align-items: center;
@@ -50,13 +50,16 @@ section {
 }
 
 .icons {
-  flex: 0.5;
+  flex: 1;
   justify-content: space-between;
 }
-
 .menu {
   justify-content: space-between;
   align-items: center;
+
+}
+.menu h6{
+    float: left;
 }
 
 .name {
@@ -77,6 +80,7 @@ section {
 
 .content > * {
   margin-bottom: 8px;
+  top: 120px;
 }
 
 .title {
@@ -105,4 +109,11 @@ section {
   bottom: 0;
   right: 0;
   width: 30%;
+}
+.social-media ul{
+    display: flex;
+}
+
+.social-media ul li{
+    list-style: none;
 }

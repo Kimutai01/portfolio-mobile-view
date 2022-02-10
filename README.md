@@ -4,7 +4,7 @@
 
 > The mobile view of the header section of my portfolio
 
-![screenshot](./mine.png)
+![screenshot](./after.png)
 
 Additional description about the project and its features.
 
