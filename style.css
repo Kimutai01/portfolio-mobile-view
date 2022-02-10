@@ -1,6 +1,17 @@
-.header-nav {
-  background: #3c3a39;
-}
+
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+  
+  .header-nav {
+    background: #3c3a39;
+  }
 .container {
   position: absolute;
   display: inline;
