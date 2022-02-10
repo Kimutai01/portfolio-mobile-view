@@ -53,10 +53,12 @@ nav .status-bar {
   flex: 1;
   justify-content: space-between;
 }
+
 .menu {
   justify-content: space-between;
   align-items: center;
 }
+
 .menu h6 {
   float: left;
 }
@@ -109,6 +111,7 @@ nav .status-bar {
   right: 0;
   width: 30%;
 }
+
 .social-media ul {
   display: flex;
 }
