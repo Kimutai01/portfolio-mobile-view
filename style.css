@@ -13,9 +13,18 @@
 .container ul li{
     display: inline;
 }
+
 .logo {
+    font: roboto;
     width: 163px;
     height: 44px;
     top: 2px;
     left: 2px;
+    margin-left: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 24px;
+}
+.content {
+    background: #1C1A19;
 }
