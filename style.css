@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
+
 body {
   height: 100vh;
 }
@@ -17,12 +18,14 @@ a {
 button {
   background: none;
 }
+
 header {
   background: #3c3a39;
   min-height: 92px;
   flex-direction: column;
   justify-content: space-around;
 }
+
 header,
 .status-bar,
 .icons,
@@ -35,6 +38,7 @@ header > *,
 section {
   padding: 0 24px;
 }
+
 .status-bar {
   padding: 0 8px;
   justify-content: space-between;
@@ -49,7 +53,6 @@ section {
   flex: 0.5;
   justify-content: space-between;
 }
-
 
 .menu {
   justify-content: space-between;
