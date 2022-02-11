@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@500;700&display=swap");
+
 * {
   box-sizing: border-box;
   border: 0;
@@ -118,4 +120,16 @@ nav .status-bar {
 
 .social-media ul li {
   list-style: none;
+}
+
+.head {
+  color: #1c1a19;
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 120px;
+  margin: 24px 0;
+  padding-bottom: 104px;
 }
