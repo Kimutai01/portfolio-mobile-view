@@ -167,16 +167,21 @@ nav .status-bar {
   display: flex;
   grid-gap: 12px;
 }
-.main-tags ul{
+
+.main-tags ul {
   display: flex;
 }
 
-.main-tags ul li{
+.main-tags ul li {
   padding: 10px;
 }
 
-.main-tags .main-butt:hover{
-  color: gray
+.main-butt {
+  margin-bottom: 24px;
+}
+
+.main-tags .main-butt:hover {
+  color: gray;
 }
 
 .single {
@@ -241,10 +246,6 @@ nav .status-bar {
   grid-row: 4;
 }
 
-.main-butt {
-  margin-bottom: 24px;
-}
-
 .project-content ul {
   list-style: none;
   display: flex;
@@ -260,11 +261,12 @@ nav .status-bar {
   bottom: 0;
   right: 0;
 }
-.see-project:hover{
+
+.see-project:hover {
   background-color: green;
 }
 
-.see-project::after{
+.see-project::after {
   background-color: blue;
 }
 
