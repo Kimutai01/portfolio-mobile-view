@@ -164,9 +164,19 @@ nav .status-bar {
 
 .main-tags {
   margin-top: 12px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
   grid-gap: 12px;
+}
+.main-tags ul{
+  display: flex;
+}
+
+.main-tags ul li{
+  padding: 10px;
+}
+
+.main-tags .main-butt:hover{
+  color: gray
 }
 
 .single {
@@ -249,6 +259,13 @@ nav .status-bar {
   display: block;
   bottom: 0;
   right: 0;
+}
+.see-project:hover{
+  background-color: green;
+}
+
+.see-project::after{
+  background-color: blue;
 }
 
 .about {
