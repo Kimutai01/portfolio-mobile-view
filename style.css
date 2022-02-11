@@ -118,13 +118,16 @@ nav .status-bar {
   display: flex;
 }
 
+.project-content li {
+  margin: 12px;
+}
+
 .social-media ul li {
   list-style: none;
 }
 
 .head {
   color: #1c1a19;
-  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -133,12 +136,12 @@ nav .status-bar {
   margin: 24px 0;
   padding-bottom: 104px;
 }
+
 .single-work {
   margin-bottom: 24px;
 }
 
 .project-title {
-  font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -146,36 +149,35 @@ nav .status-bar {
   color: #1c1a19;
   margin-bottom: 12px;
 }
-.separation{
+
+.separation {
   margin-bottom: 80px;
 }
 
 .describe {
   color: #091e42;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
 }
 
-.main-tags{
+.main-tags {
   margin-top: 12px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 12px;
 }
-.single{
+
+.single {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
 }
-.view-project{
+
+.view-project {
   margin-left: 24px;
-
 }
-
-
 
 .project-desc {
   height: 70vh;
@@ -194,6 +196,7 @@ nav .status-bar {
   display: grid;
   grid-template-rows: 28% repeat(3, auto);
 }
+
 .cards {
   display: grid;
   gap: 24px;
@@ -213,14 +216,7 @@ nav .status-bar {
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
     ),
-    url(images/Img\ Placeholder\ \(1\).png) center / cover no-repeat;
-}
-
-.project-content {
-  margin: 0 24px;
-  height: 100%;
-  display: grid;
-  grid-template-rows: 28% repeat(3, auto);
+    url(images/back.png) center / cover no-repeat;
 }
 
 .project-content .project-name {
@@ -235,40 +231,38 @@ nav .status-bar {
   grid-row: 4;
 }
 
-.main-butt{
+.main-butt {
   margin-bottom: 24px;
 }
 
-.project-content ul{
+.project-content ul {
   list-style: none;
   display: flex;
-}
-.project-content li {
-  margin: 12px ;
 }
 
 .see-project,
 .resume {
   height: 48px;
-  width: max-content;
+  width: 100%;
   background-color: #ff6b00;
   padding: 12px;
-  display: block;bottom: 0;
+  display: block;
+  bottom: 0;
   right: 0;
-  width: 100%;
-}
-.about{
-width: 375px;
-height: 2100px;
-left: 0px;
-top: 4137px;
-
-/* Theme 3 / Neutral 1 */
-
-background: #1C1A19;
 }
 
-.titl{
+.about {
+  width: 375px;
+  height: 2100px;
+  left: 0;
+  top: 4137px;
+
+  /* Theme 3 / Neutral 1 */
+
+  background: #1c1a19;
+}
+
+.titl {
   text-align: center;
   color: #ff6b00;
   font-family: "Create Round", sans-serif;
@@ -279,8 +273,7 @@ background: #1C1A19;
   padding-top: 120px;
 }
 
-.about-me{
-  font-family: Inter;
+.about-me {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -288,48 +281,45 @@ background: #1C1A19;
   padding-bottom: 24px;
 }
 
-.resume{
+.resume {
   padding-top: 24px;
 }
 
-.border{
+.border {
   padding-top: 10px;
   padding-bottom: 136.73px;
 }
 
-.language{
+.language {
   display: flex;
   padding-left: 86.77px;
-  
 }
 
-.language .lang-header{
-margin-left: 12px;
-font-family: InaiMathi;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
+.language .lang-header {
+  margin-left: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
 }
 
-.res{
+.res {
   position: absolute;
 }
 
-.about-ill{
+.about-ill {
   padding-left: 200px;
 }
 
-.skills ul{
+.skills ul {
   list-style: none;
   text-align: center;
 }
-.skills ul li{
-padding: 20px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 43px;
-}
 
+.skills ul li {
+  padding: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+}
