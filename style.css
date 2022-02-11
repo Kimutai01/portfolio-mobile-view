@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@500;700&display=swap");
+
 * {
   box-sizing: border-box;
   border: 0;
@@ -116,6 +118,227 @@ nav .status-bar {
   display: flex;
 }
 
+.project-content li {
+  margin: 12px;
+}
+
 .social-media ul li {
   list-style: none;
+}
+
+.head {
+  color: #1c1a19;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 120px;
+  margin: 24px 0;
+  padding-bottom: 104px;
+}
+
+.single-work {
+  margin-bottom: 24px;
+}
+
+.project-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #1c1a19;
+  margin-bottom: 12px;
+}
+
+.separation {
+  margin-bottom: 80px;
+}
+
+.describe {
+  color: #091e42;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-tags {
+  margin-top: 12px;
+  display: flex;
+  grid-gap: 12px;
+}
+
+.main-tags ul {
+  display: flex;
+}
+
+.main-tags ul li {
+  padding: 10px;
+}
+
+.main-butt {
+  margin-bottom: 24px;
+}
+
+.main-tags .main-butt:hover {
+  color: gray;
+}
+
+.single {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.view-project {
+  margin-left: 24px;
+}
+
+.project-desc {
+  height: 70vh;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgb(38 38 38 / 66%) 120%
+    ),
+    url(images/cards/project_background.png) center / cover no-repeat;
+}
+
+.project-content {
+  margin: 0 24px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 28% repeat(3, auto);
+}
+
+.cards {
+  display: grid;
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-details {
+  height: 70vh;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgb(38 38 38 / 66%) 120%
+    ),
+    url(images/back.png) center / cover no-repeat;
+}
+
+.project-content .project-name {
+  grid-row: 2;
+}
+
+.project-content .description {
+  grid-row: 3;
+}
+
+.project-content .boxes {
+  grid-row: 4;
+}
+
+.project-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.see-project,
+.resume {
+  height: 48px;
+  width: 100%;
+  background-color: #ff6b00;
+  padding: 12px;
+  display: block;
+  bottom: 0;
+  right: 0;
+}
+
+.see-project:hover {
+  background-color: green;
+}
+
+.see-project::after {
+  background-color: blue;
+}
+
+.about {
+  width: 375px;
+  height: 2100px;
+  left: 0;
+  top: 4137px;
+
+  /* Theme 3 / Neutral 1 */
+
+  background: #1c1a19;
+}
+
+.titl {
+  text-align: center;
+  color: #ff6b00;
+  font-family: "Create Round", sans-serif;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 24px;
+  padding-top: 120px;
+}
+
+.about-me {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 24px;
+}
+
+.resume {
+  padding-top: 24px;
+}
+
+.border {
+  padding-top: 10px;
+  padding-bottom: 136.73px;
+}
+
+.language {
+  display: flex;
+  padding-left: 86.77px;
+}
+
+.language .lang-header {
+  margin-left: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.res {
+  position: absolute;
+}
+
+.about-ill {
+  padding-left: 200px;
+}
+
+.skills ul {
+  list-style: none;
+  text-align: center;
+}
+
+.skills ul li {
+  padding: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
 }
