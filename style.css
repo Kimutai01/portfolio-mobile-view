@@ -248,7 +248,9 @@ nav .status-bar {
 
 .project-content ul {
   list-style: none;
-  display: flex;
+}
+.project-content ul li{
+  float: right;
 }
 
 .see-project,
