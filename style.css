@@ -180,6 +180,10 @@ nav .status-bar {
   margin-bottom: 24px;
 }
 
+.boxes {
+  display: flex;
+}
+
 .main-tags .main-butt:hover {
   color: gray;
 }
@@ -248,7 +252,10 @@ nav .status-bar {
 
 .project-content ul {
   list-style: none;
-  display: flex;
+}
+
+.project-content ul li {
+  float: right;
 }
 
 .see-project,
@@ -263,11 +270,12 @@ nav .status-bar {
 }
 
 .see-project:hover {
-  background-color: green;
+  background-color: white;
+  color: #ff6b00;
 }
 
 .see-project::after {
-  background-color: blue;
+  background-color: orangered;
 }
 
 .about {
@@ -341,4 +349,125 @@ nav .status-bar {
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
+}
+
+.contact-section {
+  background: white;
+}
+
+.contact h3 {
+  color: #172b4d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.contact .contact-list {
+  border-bottom: 2px solid #dbd8d7;
+  padding-bottom: 5px;
+  margin-right: 50px;
+  margin-left: 35px;
+}
+
+input {
+  outline: none;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 70px;
+  font-style: normal;
+  font-weight: normal;
+  color: #979493;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #979493;
+}
+
+textarea {
+  background: #fbf8f7;
+  font-size: 15px;
+  line-height: 24px;
+  margin-right: 24px;
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.mess textarea::placeholder {
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 200%;
+  margin-left: 25px;
+  padding-left: 30px;
+}
+
+.btn {
+  background-color: #ff6b00;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  padding: 12px;
+  display: block;
+  height: 48px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  color: #f55800;
+}
+
+.btn::after {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.mess {
+  padding-top: 25px;
+}
+
+.footer-links {
+  padding-top: 10px;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer-links ul li {
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.contact form ul {
+  list-style: none;
+}
+
+.footer-social {
+  flex: 0.5;
+}
+
+.shape {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
