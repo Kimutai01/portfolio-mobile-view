@@ -196,8 +196,7 @@ nav .status-bar {
 
 .project-desc {
   height: 70vh;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -225,8 +224,7 @@ nav .status-bar {
 
 .project-details {
   height: 70vh;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -249,7 +247,7 @@ nav .status-bar {
 .project-content ul {
   list-style: none;
 }
-.project-content ul li{
+.project-content ul li {
   float: right;
 }
 
@@ -343,4 +341,103 @@ nav .status-bar {
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
+}
+.contact-section {
+  background: white;
+}
+
+.contact h3 {
+  color: #172b4d;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+form ul {
+  list-style: none;
+}
+.contact-list {
+  border-bottom: 2px solid #dbd8d7;
+  padding-bottom: 20px;
+}
+
+input {
+  outline: none;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 70px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  color: #979493;
+  padding-bottom: 30px;
+}
+textarea {
+  background: #fbf8f7;
+  font-size: 15px;
+  line-height: 24px;
+  margin-right: 24px;
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+textarea::placeholder {
+  color: #3c3a39;
+  /* font-weight: 400; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+ 
+}
+
+.btn {
+  background-color: #ff6b00;
+  text-align:center;
+  width: 50%;
+  align-items: center;
+  padding: 12px;
+  display: block;
+  height: 48px;
+  margin: auto;
+}
+.btn:hover{
+  background-color: #091e42;
+}
+.btn::after{
+  background-color: green;
+}
+
+.mess{
+  padding-top: 25px;
+}
+.footer-linnks{
+  padding-top: 20px;
+}
+.footer-links ul{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.footer-links ul li{
+  justify-content: center;
+  padding-left: 30px;
+  
+}
+
+.footer-social{
+  flex: 0.5;
+}
+
+.shape {
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 10px;
 }
