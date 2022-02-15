@@ -180,6 +180,10 @@ nav .status-bar {
   margin-bottom: 24px;
 }
 
+.boxes {
+  display: flex;
+}
+
 .main-tags .main-butt:hover {
   color: gray;
 }
@@ -196,7 +200,8 @@ nav .status-bar {
 
 .project-desc {
   height: 70vh;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -224,7 +229,8 @@ nav .status-bar {
 
 .project-details {
   height: 70vh;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -444,7 +450,7 @@ textarea {
 .footer-links ul {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .footer-links ul li {
@@ -462,6 +468,6 @@ textarea {
 
 .shape {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
