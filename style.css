@@ -196,8 +196,7 @@ nav .status-bar {
 
 .project-desc {
   height: 70vh;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -225,8 +224,7 @@ nav .status-bar {
 
 .project-details {
   height: 70vh;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgb(38 38 38 / 66%) 120%
@@ -420,17 +418,19 @@ textarea {
   display: block;
   height: 48px;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .btn:hover {
-  background-color: rgb(233, 218, 175);
-  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
   box-sizing: border-box;
+  color: #f55800;
 }
 
 .btn::after {
-  background-color: orangered;
-  color: white;
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .mess {
@@ -438,13 +438,13 @@ textarea {
 }
 
 .footer-links {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .footer-links ul {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .footer-links ul li {
@@ -462,6 +462,6 @@ textarea {
 
 .shape {
   text-align: center;
-  padding-top: 23px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
