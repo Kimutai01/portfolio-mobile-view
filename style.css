@@ -429,7 +429,8 @@ textarea {
 }
 
 .btn::after {
-  background-color: green;
+  background-color: orangered;
+  color: white;
 }
 
 .mess {
