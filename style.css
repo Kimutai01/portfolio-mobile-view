@@ -114,10 +114,6 @@ nav .status-bar {
   width: 30%;
 }
 
-.contact form ul {
-  list-style: none;
-}
-
 .social-media ul {
   display: flex;
 }
@@ -275,7 +271,7 @@ nav .status-bar {
 }
 
 .see-project::after {
-  background-color: 
+  background-color: orangered;
 }
 
 .about {
@@ -384,13 +380,12 @@ input {
   padding-left: 25px;
 }
 
-input::placeholder{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-color: #979493;
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #979493;
 }
 
 textarea {
@@ -454,6 +449,10 @@ textarea {
 .footer-links ul li {
   justify-content: center;
   padding-left: 30px;
+}
+
+.contact form ul {
+  list-style: none;
 }
 
 .footer-social {
