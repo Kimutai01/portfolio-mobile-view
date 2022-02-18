@@ -4,11 +4,11 @@
 
 > The mobile view of the header section of my portfolio
 
-![screenshot](./after.png)
-![screenshot](./project.png)
+![screenshot](./skills-mob.png)
+![screenshot](./work-mob.png)
 ![screenshot](./skills.png)
-![screenshot](./work.png)
-![screenshot](./about.png)
+![screenshot](./framework-mob.png)
+![screenshot](./contact-mob.png)
 
 Additional description about the project and its features.
 
