@@ -178,11 +178,6 @@ nav .status-bar {
   font-size: 32px;
   line-height: 44px;
 
-  /* or 137% */
-
-
-  /* Neutrals/N0 */
-
   color: #fff;
   padding-left: 10px;
   padding-top: 50px;
@@ -306,9 +301,6 @@ nav .status-bar {
   height: 2100px;
   left: 0;
   top: 4137px;
-
-  /* Theme 3 / Neutral 1 */
-
   background: #1c1a19;
   background-image: url("images/illustration/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
