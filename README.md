@@ -17,6 +17,9 @@ Additional description about the project and its features.
 - HTML
 - CSS
 
+## Live Demo
+[Live demo link](https://kimutai01.github.io/portfolio-mobile-view/)
+
 
 
 
