@@ -12,6 +12,9 @@
 
 Additional description about the project and its features.
 
+## Deployed site
+[Site link](https://kimutai01.github.io/portfolio-mobile-view/)
+
 ## Built With
 
 - HTML
