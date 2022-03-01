@@ -3,6 +3,8 @@ const closeButn = document.querySelector('#closeBtn');
 const mobileNav = document.querySelector('.mob-wel');
 const mobileMen = document.querySelector('.mobil-men');
 const linkId = document.querySelector('#link');
+const links = document.querySelector('#links');
+const lin = document.querySelector('#linkss');
 
 closeButn.addEventListener('click', () => {
   mobileMen.style.display = 'none';
@@ -19,6 +21,16 @@ openButn.addEventListener('click', () => {
 });
 
 linkId.addEventListener('click', () => {
+  mobileMen.style.display = 'none';
+  mobileNav.style.display = 'block';
+});
+
+links.addEventListener('click', () => {
+  mobileMen.style.display = 'none';
+  mobileNav.style.display = 'block';
+});
+
+lin.addEventListener('click', () => {
   mobileMen.style.display = 'none';
   mobileNav.style.display = 'block';
 });
