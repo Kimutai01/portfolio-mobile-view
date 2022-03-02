@@ -7,6 +7,129 @@ body {
   margin: auto;
 }
 
+.popup-window {
+  display: none;
+}
+
+.butt {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.header-container .butt {
+  display: none;
+}
+
+.non button {
+  border: none;
+  background: #36b37f;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-right: 20px;
+}
+
+.non {
+  padding-left: 10px;
+}
+
+.permanent {
+  position: fixed;
+}
+
+.window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: #c1c7d0;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-title {
+  width: fit-content;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.popup-img {
+  width: 100%;
+  height: 60%;
+}
+
+.close-button {
+  align-self: flex-end;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgb(49, 48, 48);
+  background: #cdcecd;
+  margin: 5px;
+}
+
+.modal-ul {
+  justify-content: flex-start;
+}
+
+.description {
+  width: fit-content;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 10px;
+  text-align: start;
+  color: #172b4d;
+  margin: 0% auto;
+}
+
+.butt > button {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin: auto 4px;
+  text-align: center;
+}
+
 .mobil-men {
   display: none;
 }
@@ -304,6 +427,26 @@ a {
   margin-bottom: 24px;
 }
 
+.header-container .content-title {
+  display: grid;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.skillsb .mobile {
+  padding-left: 12px;
+  margin-left: 5px;
+}
+
+.container ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
 .about-me-p {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -347,6 +490,10 @@ a {
   background: #0a2759;
 }
 
+.skillsb .desktop {
+  display: none;
+}
+
 .about-me-card {
   padding: 1px;
   height: 1106px;
@@ -385,6 +532,25 @@ a {
   text-align: center;
   color: #344563;
   margin: 0;
+}
+
+.skillsb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.skillsb li {
+  padding: 8px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  margin: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3a4a42;
 }
 
 .card-details ul {
@@ -567,6 +733,14 @@ footer {
     display: none;
   }
 
+  .butt {
+    display: inline;
+  }
+
+  .header-container .butt {
+    display: inline;
+  }
+
   .mobile-menu {
     height: 0;
     margin-top: 0;
@@ -583,6 +757,29 @@ footer {
     background-repeat: no-repeat;
     background-position: top 0 left 27px;
     padding: 20px 0 0;
+  }
+
+  .skillsb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px 0;
+  }
+
+  .skillsb li {
+    padding: 8px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    margin: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3a4a42;
+  }
+
+  .mobil-men {
+    display: block;
   }
 
   .wrapper {
@@ -625,6 +822,10 @@ footer {
     background-color: #36b37e;
     color: #fff;
     border-radius: 10px;
+  }
+
+  .seelive {
+    float: left;
   }
 
   .headline {
@@ -850,5 +1051,146 @@ footer {
 
   .mobile-navigation {
     display: none;
+  }
+
+  .permanent {
+    position: fixed;
+  }
+
+  .window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background: #c1c7d0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+  .container {
+    position: relative;
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    padding: 1%;
+  }
+
+  .container-title {
+    width: 100%;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    display: grid;
+    grid-template-columns: 500px;
+    padding-left: 20px;
+  }
+
+  .popup-img {
+    width: 100%;
+  }
+
+  .close-button {
+    align-self: flex-end;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgb(49, 48, 48);
+    background: #cdcecd;
+    margin: 5px;
+  }
+
+  .description {
+    width: 100%;
+    height: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px;
+    color: #172b4d;
+    margin: 0 auto;
+  }
+
+  .buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: #36b37f;
+    margin: 5px 10px;
+  }
+
+  .buttons > button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button span {
+    margin: auto 3px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+  .container ul {
+    list-style: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .skillsb .desktop {
+    display: block;
+  }
+
+  .non {
+    display: none;
+  }
+
+  .header-container .source button {
+    padding: 10px;
+    width: auto;
+  }
+
+  .source {
+    margin-left: 0;
   }
 }
