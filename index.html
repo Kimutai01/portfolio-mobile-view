@@ -6,42 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kimutai's Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  
   <script src="https://kit.fontawesome.com/eb94992e2c.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="wrapper">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVQ8FS3P7Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
     
- 
+    gtag('config', 'G-DVQ8FS3P7Y');
+  </script>
+</head>
+<body id="page-body" class="body">
+  <div id="wrapper" class="wrapper">
     <header>
-      <nav class="navigation mobile-menu" >
-        <div class="mobil-men">
-        <a href="#" class="closeBtn" id="closeBtn"><i class="fa-solid fa-xmark"></i></a>
+      <nav class="navigation">
+        <div id="mobile-menu-navigation" class="overlay">
+          <a href="javascript:void(0)" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+          <ul class="overlay-content">
+            <li class="portfolio page-link"> <a href="#portfolio">Portfolio</a></li>
+            <li class="about page-link"><a href="#about-me">About</a></li>
+            <li class="contact page-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
         <ul class="desktop-nav">
-          <li id="link" class="portfolio"><a href="#portfolio">Portfolio</a></li>
-          <li id="links" class="about"><a href="#about">About</a></li>
-          <li id="linkss" class="contact"><a href="#contact">Contact</a></li>
+          <li class="portfolio"> <a href="#portfolio">Portfolio</a></li>
+          <li class="about"><a href="#about-me">About</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-        <div class="mob-wel">
+        
         <ul class="mobile-nav">
           <li class="welcome">Welcome</li>
-          <li class="menu-icon" id="menu-icon" onclick="toggle"><nav><i class="fa-solid fa-bars"></i></nav></li>
+          <li class="menu-icon"><nav><i class="fa-solid fa-bars"></i></nav></li>
         </ul>
-      </div>
       </nav>
-
+      
       <section class="headline">
-          <h1><span>Hey there. I'm Kimutai.</span><br>I'm a Software Developer</h1>
-          <p> I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <h1><span>Hey there. I'm Kimutai.</span><br>I'm a Software Developer</h1>
+        <p> I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         
         <div class="socials">
           <ul>
-            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Kimutai01"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kimutai-kiprotich-1b5045216/"><i class="fa-brands fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
           </ul>   
         </div>
         
@@ -53,8 +63,6 @@
     
     
     <section class="recent-works" id="portfolio"> 
-      
-      
       <div class="title"> 
         <h2>My Recent Works</h2>
         <div class="bar">
@@ -74,7 +82,7 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
         
@@ -87,7 +95,7 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
         
@@ -100,7 +108,7 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
         
@@ -113,7 +121,7 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
         
@@ -126,7 +134,7 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
         
@@ -139,16 +147,16 @@
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
-            <a href="#" class="works-button">See Project</a>
+            <button class="works-button" type="button">See Project</button>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="about-me" id="about">
+    <section class="about-me" id="about-me">
       
       <div class="about-me-text">
-        <h4 class="about-me-title">About me</h4>
+        <h3 class="about-me-title">About me</h3>
         <p class="about-me-p"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         <a href="#" class="about-me-button">Get My Resume</a>
       </div>
@@ -205,28 +213,36 @@
       
     </section>
     <section class="form" id="contact">
-      <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-      <form action="https://formspree.io/f/mnqwdbwy" method="post">
+      <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+      <form id="contact-form" action="https://formspree.io/f/xjvlrowp" method="post" novalidate>
         <ul class="form-inputs">
-          <li><input type="text" id="name" placeholder="Full name" name="user_name" required maxlength="30"></li>
-          <li><input type="email" id="email" placeholder="Email address" name="user_email" required></li>
-          <li><textarea id="message" name="user_message" required maxlength="500">Enter text here</textarea></li>
-          <li class="button"><button type="submit" id="submit">Get in touch</button></li>
+          <li>
+            <input type="text" id="name" placeholder="Full name" name="user_name" required maxlength="30"></li>
+          <li>
+            <input type="email" id="email" placeholder="Email address" name="user_email" required></li>
+          <li>
+            <textarea id="message" name="user_message" required maxlength="500">Enter text here</textarea></li>
+          <li class="button">
+            <button type="submit" id="submit">Get in touch</button>
+          </li>
         </ul>
       </form>
     </section>
     
     <footer>
-      <div class="footer-socials">
+      <div class="footer-socials"><br>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-angellist"></i></a></li>
+          <li><a href="https://github.com/Kimutai01"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/kimutai-kiprotich-1b5045216/"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
           <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
           <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
         </ul>
       </div>
+      <p class="footer-email">kiprotichkimutai01@gmail.com</p>
     </footer>
+  </div>
+  <div class="project-popup-window">
   </div>
   <script src="script/script.js"></script>
 </body>
