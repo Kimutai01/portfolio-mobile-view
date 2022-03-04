@@ -490,6 +490,7 @@ input {
 textarea::placeholder {
   color: #000;
 }
+
 /* error message for form validation */
 .error {
   visibility: hidden;
@@ -967,7 +968,6 @@ footer {
     display: none;
   }
 
-  /* Popup for project cards desktop */
   .pop-up-overlay {
     top: 5%;
     padding: 70px 20px 40px 20px;
