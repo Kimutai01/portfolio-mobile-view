@@ -1,23 +1,22 @@
+const contactForm = document.querySelector('#contact-form');
+const fullName = document.querySelector('#name');
+const emailAddress = document.querySelector('#email');
+const message = document.querySelector('#message');
 
-const email = document.getElementById('email');
-const form = document.getElementById('contact-form');
-const errorMsg = document.getElementById('form-error');
+function dataStorage() {
+  const user = {
+    userFullName: fullName.value,
+    userEmail: emailAddress.value,
+    userMessage: message.value,
+  };
 
-form.addEventListener('submit', (event) => {
-  if (email.value !== email.value.toLowerCase()) {
-    event.preventDefault();
-    errorMsg.style.visibility = 'visible';
-    setTimeout(() => {
-      errorMsg.style.visibility = 'hidden';
-    }, 5000);
-  } else if (email.validity.typeMismatch) {
-    event.preventDefault();
-    errorMsg.textContent = 'Please enter a valid email address';
-    errorMsg.style.visibility = 'visible';
-    setTimeout(() => {
-      errorMsg.style.visibility = 'hidden';
-    }, 5000);
-  } else {
-    errorMsg.style.visibility = 'hidden';
-  }
-});
+  localStorage.setItem('userData', JSON.stringify(user));
+}
+
+contactForm.addEventListener('focusout', dataStorage);
+
+const userDataObject = JSON.parse(localStorage.getItem('userData'));
+
+fullName.value = userDataObject.userFullName;
+emailAddress.value = userDataObject.userEmail;
+message.value = userDataObject.userMessage;

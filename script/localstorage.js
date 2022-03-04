@@ -5,13 +5,13 @@ const message = document.querySelector('#message');
 
 // Add to local storage function
 function dataStorage() {
-const user = {
-userFullName: fullName.value,
-userEmail: emailAddress.value,
-userMessage: message.value,
-};
+  const user = {
+    userFullName: fullName.value,
+    userEmail: emailAddress.value,
+    userMessage: message.value,
+  };
 
-localStorage.setItem('userData', JSON.stringify(user));
+  localStorage.setItem('userData', JSON.stringify(user));
 }
 
 contactForm.addEventListener('focusout', dataStorage);
@@ -20,4 +20,4 @@ const userDataObject = JSON.parse(localStorage.getItem('userData'));
 
 fullName.value = userDataObject.userFullName;
 emailAddress.value = userDataObject.userEmail;
-message.value = userDataObject.userMessage; 
+message.value = userDataObject.userMessage;
