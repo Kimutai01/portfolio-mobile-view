@@ -1,9 +1,6 @@
 const contactForm = document.querySelector('#contact-form');
 const fullName = document.querySelector('#name');
 const emailAddress = document.querySelector('#email');
-const contactForm = document.querySelector('#contact-form');
-const fullName = document.querySelector('#name');
-const emailAddress = document.querySelector('#email');
 const message = document.querySelector('#message');
 
 function dataStorage() {
