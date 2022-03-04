@@ -124,7 +124,6 @@ for (let button = 0; button < projectButtons.length; button += 1) {
   }
 }
 
-// when triggered overwrite the HTML content and make it empty
 function closeNav() {
   docBody.innerHTML = '';
   wrapper.classList.remove('blur');
