@@ -1,4 +1,4 @@
-// contact form validation
+
 const email = document.getElementById('email');
 const form = document.getElementById('contact-form');
 const errorMsg = document.getElementById('form-error');
