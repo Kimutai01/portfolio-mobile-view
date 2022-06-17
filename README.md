@@ -4,15 +4,12 @@
 
 > The mobile view of the header section of my portfolio
 
-![screenshot](./skills-mob.png)
-![screenshot](./work-mob.png)
-![screenshot](./skills.png)
-![screenshot](./framework-mob.png)
-![screenshot](./contact-mob.png)
+![screenshot](./assets/images/projects/portfolio-view.png)
 
 Additional description about the project and its features.
 
 ## Deployed site
+
 [Site link](https://kimutai01.github.io/portfolio-mobile-view/)
 
 ## Built With
@@ -21,10 +18,8 @@ Additional description about the project and its features.
 - CSS
 
 ## Live Demo
+
 [Live demo link](https://kimutai01.github.io/portfolio-mobile-view/)
-
-
-
 
 ## Authors
 
@@ -32,7 +27,6 @@ Additional description about the project and its features.
 
 - GitHub: [@Kimutai01](https://github.com/Kimutai01)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kimutai-kiprotich-1b5045216/)
-
 
 ## 🤝 Contributing
 

@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kimutai Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Kimutai's Portfolio</title>
+    <link rel="stylesheet" href="mobile-style.css" />
     <script
       src="https://kit.fontawesome.com/eb94992e2c.js"
       crossorigin="anonymous"
@@ -21,16 +21,15 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "G-DVQ8FS3P7Y");
     </script>
-    <script src="script/script.js" defer></script>
-    <script src="script/validation.js" defer></script>
-    <script src="script/localstorage.js" defer></script>
   </head>
   <body id="page-body" class="body">
     <div id="wrapper" class="wrapper">
       <header>
         <nav class="navigation">
+          <!-- mobile menu navigation overlay -->
           <div id="mobile-menu-navigation" class="overlay">
             <a href="javascript:void(0)" class="close-btn">
               <i class="fa-solid fa-xmark"></i>
@@ -47,6 +46,7 @@
               </li>
             </ul>
           </div>
+          <!-- end of mobile navigation overlay -->
           <ul class="desktop-nav">
             <li class="portfolio">
               <a href="#portfolio">Portfolio</a>
@@ -99,12 +99,14 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="https://twitter.com/Kimutai_01?t=LlMucMFDv8cW3bCn52wSTw&s=09"
+                >
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://medium.com/@kiprotichkimutai01">
                   <i class="fa-brands fa-medium"></i>
                 </a>
               </li>
@@ -125,84 +127,7 @@
           </div>
         </div>
 
-        <div class="recent-works-cards">
-          <div class="works work1">
-            <div class="work-details">
-              <h3>Todo list</h3>
-              <ul class="language-tags">
-                <li>Html</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-
-          <div class="works work2">
-            <div class="work-details">
-              <h3>Multi-Post Stories Gain+Glory</h3>
-              <ul class="language-tags">
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-
-          <div class="works work3">
-            <div class="work-details">
-              <h3>Multi-Post Stories Gain+Glory</h3>
-              <ul class="language-tags">
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-
-          <div class="works work4">
-            <div class="work-details">
-              <h3>Multi-Post Stories Gain+Glory</h3>
-              <ul class="language-tags">
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-
-          <div class="works work5">
-            <div class="work-details">
-              <h3>Multi-Post Stories Gain+Glory</h3>
-              <ul class="language-tags">
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-
-          <div class="works work6">
-            <div class="work-details">
-              <h3>Multi-Post Stories Gain+Glory</h3>
-              <ul class="language-tags">
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-              <button type="button" class="works-button">See Project</button>
-            </div>
-          </div>
-        </div>
+        <div class="recent-works-cards"></div>
       </section>
 
       <section class="about-me" id="about-me">
@@ -275,7 +200,6 @@
           id="contact-form"
           action="https://formspree.io/f/xrgjklnq"
           method="post"
-          novalidate
         >
           <ul class="form-inputs">
             <li>
@@ -311,6 +235,7 @@
             </li>
             <li class="button">
               <button type="submit" id="submit">Get in touch</button>
+              <button type="button" id="reset">Reset</button>
               <span id="form-error" class="error" aria-live="polite"
                 >Your email needs to be in lowercase</span
               >
@@ -340,12 +265,14 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="https://twitter.com/Kimutai_01?t=LlMucMFDv8cW3bCn52wSTw&s=09"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://medium.com/@kiprotichkimutai01">
                 <i class="fa-brands fa-medium"></i>
               </a>
             </li>
@@ -354,7 +281,43 @@
         <p class="footer-email">kiprotichkimutai01@gmail.com</p>
       </footer>
     </div>
-    <div class="project-popup-window"></div>
+    <!-- Popup for project cards -->
+    <div class="project-popup-window">
+      <span class="close">
+        <img src="assets/images/Disabled.svg" alt="close" />
+      </span>
+      <div class="pop-up-overlay">
+        <div class="pop-up-image-container">
+          <img class="pop-up-overlay-image" src="." alt="" />
+        </div>
+        <div class="pop-up-overlay-content">
+          <h2 class="project-title">Title</h2>
+          <ul class="lang-tags"></ul>
+          <p class="description"></p>
+          <div class="buttons-container">
+            <div class="button-items">
+              <a href="" class="live-view">
+                See Live <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="" class="source-code">
+                See Source <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button type="button" class="prevProject">
+          <i class="fa-solid fa-arrow-left-long"></i> Previous Project
+        </button>
+        <button type="button" class="nextProject">
+          Next Project <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </div>
+    <script src="js/mobileMenu.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/localStorage.js"></script>
+    <script src="js/projects.js"></script>
   </body>
 </html>
-
