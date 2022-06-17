@@ -118,12 +118,10 @@ function closePopup(closeButton) {
 closePopup(closeProject);
 
 const projectButtons = document.querySelectorAll('.works-button');
-projectButtons.forEach((button) =>
-  button.addEventListener('click', () => {
-    populatePopup(Number(button.id));
-    modalbody.style.display = 'block';
-  })
-);
+projectButtons.forEach((button) => button.addEventListener('click', () => {
+  populatePopup(Number(button.id));
+  modalbody.style.display = 'block';
+}));
 
 function goToPreviousProject() {
   populatePopup(Number(previousButton.id) - 1);
